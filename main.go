@@ -26,14 +26,14 @@ func main() {
 
 	port := os.Getenv("TODO_PORT")
 	if port == "" {
-		port = "8080"
+		port = "7540"
 	}
 
 	if _, err := strconv.Atoi(port); err != nil {
 		log.Fatal(err)
 	}
 
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":7540", nil)
 	if err != nil {
 		log.Fatal(err)
 	}
