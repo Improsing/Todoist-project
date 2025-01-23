@@ -15,7 +15,7 @@
 
 1. **Склонируйте репозиторий:**
    ```bash
-   git clone https://github.com/yourusername/todoist.git
+   git clone https://github.com/Improsing/todoist.git
    cd todoist
 
 2. Для загрузки зависимостей используйте команду:
